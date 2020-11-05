@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+/*共通部分*/
+body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+ }
+ html {
+   font-size: 100%;
+   width: 1366px;
+ }
+ a {
+   text-decoration: none;
+ }
+ ul {
+   list-style: none;  
+ }
+ img {
+   max-width: 100%
+ }
+.container {
+  width:980px;
+  margin:0 193px;
+}
+
+/*header*/
+.header-wrap {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:80px;
+  margin-top:30px;
+}
+.header-right ul {
+  display:flex;
+}
+.header-right li {
+  margin-left:20px;
+  font-size:16px;
+  color:#333;
+  font-weight: bolder;
+}
+
+/*main*/
+.main-top {
+  background-image: url(images/austin-distel-wawEfYdpkag-unsplash.png);
+  height:551px;
+  color: #fff;
+  text-align: center;
+}
+.main-top h1 {
+  padding-top:254px;
+  margin-bottom:-15px;
+  font-size: 36px;
+}
+.main-top p {
+  font-size: 16px;
+}
+
+.main-bottom-title {
+  text-align: center;
+  padding-top:60px;
+  padding-bottom:49px;
+}
+.main-bottom-title h2 {
+  font-size: 32px;
+}
+.main-bottom-item {
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  width: 310px;
+  height: 336px; 
+  box-shadow: 0 3px 6px #00000029;
+}
+.item h3 {
+  font-size: 18px;
+  text-align: center;
+}
+.date-a {
+  position: absolute;
+  top: 1170px;
+  left: 220px;
+}
+.date-b {
+  position: absolute;
+  top: 1170px;
+  left:550px;
+}
+.date-c {
+  position: absolute;
+  top: 1170px;
+  left: 880px;
+}
+.btn{
+  border-radius: 5px;  
+  box-shadow: 0 3px 6px #00000029;
+  display: inline-block;
+}
+.w {
+  padding: 17px 110px;
+  margin-top: 46px;
+  margin-left: 335px;
+}
+.w a {
+  color: #333;
+  font-weight: bolder;
+}
+
+/*footer*/
+footer {
+  margin-top: 88px;
+}
+.footer-top {
+  height: 455px;
+  color: #fff;
+  text-align: center;
+  line-height: 12px;
+  background-image: url(images/tim-bogdanov-4uojMEdcwI8-unsplash.png);
+}
+.footer-top h2 {
+  font-size: 36px;
+  padding-top: 59px;
+  padding-bottom: 47px;
+}
+.r {
+  padding:19px 25px;
+  background-color: #83032A;
+  margin-left: 578px;
+  position: absolute;
+  top:1755px;
+  left:578;
+}
+.r a {
+  color: #fff;
+}
+.footer-bottom {
+  height:80px;
+  color: #fff;
+  background-color: #333;
+  text-align: center;
+}
+.footer-bottom p {
+  position: absolute;  
+  top:1885px;
+  left:511px;
+}
